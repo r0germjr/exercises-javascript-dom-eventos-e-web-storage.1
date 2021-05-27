@@ -58,17 +58,27 @@
   <body>
     <script>
       
-      //exercicio01
+      // exercicio01
       let corpo = document.querySelector('body');
       let filhoDoCorpo = document.createElement('h3');
       corpo.appendChild(filhoDoCorpo);
       filhoDoCorpo.innerText = 'Texto exemplo';
 
-      //exercicio02
+      // exercicio02
       let elementoDiv = document.createElement('div');
       elementoDiv.className = 'main-content';
       elementoDiv.innerText = 'TEXTO DO MAIN CONTENT';
       document.body.appendChild(elementoDiv);
+
+      // exercicio03
+      // Adicione a tag div com a classe center-content como filho da tag div criada no passo 2
+      let elementCenterDiv = document.createElement('div');
+      elementCenterDiv.className = 'center-content';
+      elementCenterDiv.innerText = 'TEXTO DO CENTER CONTENT';
+      elementoDiv.appendChild(elementCenterDiv);
+      
+      // exercicio04
+
 
 
     </script>
