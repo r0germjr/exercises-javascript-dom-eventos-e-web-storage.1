@@ -78,6 +78,18 @@
       elementoDiv.appendChild(elementCenterDiv);
       
       // exercicio04
+      // Adicione a tag p como filho do div criado no passo 3 e coloque algum texto;
+      let newParagraph = document.createElement('p');
+      newParagraph.innerText = 'TEXTO DO PARAGRAFO NOVO';
+      elementCenterDiv.appendChild(newParagraph);
+
+      // exercicio05
+      // Adicione a tag div com a classe left-content como filho da tag div criada no passo 2;
+
+      let elementDivLeftContent = document.createElement('div');
+      elementDivLeftContent.className = 'left-content';
+      elementDivLeftContent.innerText = 'TEXTO DO LEFT-CONTENT';
+      elementoDiv.appendChild(elementDivLeftContent);
 
 
 
