@@ -57,7 +57,20 @@
   </head>
   <body>
     <script>
-      // COLOQUE SEU CÓDIGO AQUI
+      
+      //exercicio01
+      let corpo = document.querySelector('body');
+      let filhoDoCorpo = document.createElement('h3');
+      corpo.appendChild(filhoDoCorpo);
+      filhoDoCorpo.innerText = 'Texto exemplo';
+
+      //exercicio02
+      let elementoDiv = document.createElement('div');
+      elementoDiv.className = 'main-content';
+      elementoDiv.innerText = 'TEXTO DO MAIN CONTENT';
+      document.body.appendChild(elementoDiv);
+
+
     </script>
   </body>
 </html>
