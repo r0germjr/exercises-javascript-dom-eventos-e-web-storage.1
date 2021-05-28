@@ -7,7 +7,6 @@ const myWebpage = document.getElementById('mySpotrybefy');
 //2
 function addClass(selectElement) {
     selectElement = document.querySelector('tech');
-    console.log(selectElement);
 }
 
 /*
